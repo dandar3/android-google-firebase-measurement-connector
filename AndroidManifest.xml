@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
- Copyright (C) 2014 The Android Open Source Project
+ Copyright (C) 2012 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -15,7 +15,13 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="changeme"
-    android:versionCode="100"
-    android:versionName="1.0.0">
+    package="com.google.firebase.analytics.connector" 
+    android:versionCode="1500"
+    android:versionName="15.0.0">
+
+    <uses-sdk android:minSdkVersion="14" />
+
+    <application>
+    </application>
+
 </manifest>
